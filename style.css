@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Yellowtail&display=swap');
 *,
 *:after,
 *::before {
@@ -19,7 +21,7 @@ body{
     font-family: "Paytone One", sans-serif;
 }
 
-header{
+/* header{
     position: sticky;
     top: 0;
     left: 0;
@@ -27,5 +29,200 @@ header{
     width: 100%;
     height: 60px;
     background: red;
+} */
+body,html{
+    overflow-x: hidden;
+}
+html {
+  font-size: calc(100dvw / (1512 / 10));
+}
+.trendingauctions{
+    width: auto;
+    height: 97.4rem;
+    background-image: url(./assets/images/Rectangle\ 51.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.trtoptext{
+    padding-top: 18.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trtoptext p{
+    font-family: Outfit;
+font-weight: 700;
+font-style: Bold;
+font-size: 3.8rem;
+color: white;
+line-height: 100%;
+letter-spacing: 5%;
+text-align: center;
+padding-bottom: 12rem;
+
+}
+.cartmonkey{
+    width: 32.6rem;
+    height: 42rem;
+    border: 0.4rem solid #E025CE;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #414B74;
+    transition: all 0.3s ease-in-out;
+
+}
+.cartmonkey:hover{
+    transform: scale(1.03);  ;
+}
+.cartmonkey >img{
+    width: 31rem;
+     margin-top: -14rem;
+    
 }
 
+.aqabaqalar{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 2rem 1.4rem;
+    background-color: #484456;
+     width: 32rem;
+    
+}
+.aqabaqa,.aqabaqa2{
+    display: flex;
+    align-items: center;
+    gap: 5.5rem;
+}
+.aqa{
+display: flex;
+flex-direction: column;
+gap: 0.4rem;
+}
+.aqa p{
+    font-family: Outfit;
+font-weight: 700;
+font-style: Bold;
+font-size: 1.8rem;
+color: white;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.aqa span{
+    font-family: Outfit;
+font-weight: 500;
+font-style: Medium;
+font-size: 1.6rem;
+color: #FFFFFF;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.baqa button{
+    width: 12.7rem;
+    height: 3.7rem;
+    border-radius: 0.6rem;
+    border: 0.1rem solid white;
+    outline: none;
+    background-color: #484456;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.baqa button span{
+    font-family: Outfit;
+font-weight: 700;
+font-style: Bold;
+font-size: 1.5rem;
+color: #FFFFFF;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.aqa2{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.aqa2 img{
+    width: 1.1rem;
+}
+.aqa2 button{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid white;
+   background: none;
+}
+.aqa2 p{
+    font-family: Outfit;
+font-weight: 700;
+font-style: Bold;
+font-size: 1.8rem;
+color: white;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.baqa2 button{
+    width: 12.7rem;
+    height: 3.5rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: #00031A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.baqa2 button span{
+    font-family: Outfit;
+font-weight: 700;
+font-style: Bold;
+font-size: 1.8rem;
+color: #FFFFFF;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.cartsmonkey{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+.bubutton{
+    padding-top: 5rem;
+    
+}
+.bubutton button{
+    width: 24.5rem;
+    height: 6.2rem;
+    border-radius: 0.6rem;
+    border: none;
+    outline: none;
+    background: linear-gradient(#BD24E6,#E40FAC);
+    margin: 0 auto;
+    display: block;
+    transition: all 0.2s ease-in-out;
+}
+.bubutton button span{
+    font-family: Outfit;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 2rem;
+color: white;
+line-height: 100%;
+letter-spacing: 5%;
+text-align: center;
+text-transform: uppercase;
+}
+.bubutton button:active{
+    transform: scale(0.97);
+}
